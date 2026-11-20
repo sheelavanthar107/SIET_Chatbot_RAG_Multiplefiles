@@ -5,7 +5,6 @@ st.title("SIET-Chatbot")
 st.caption("Ask Anything about College information, Courses, Placements, FAQs, Rules and Regulations")
 st.caption("RAG Pipeline with Multiple files")
 st.caption("Created by Harshitha")
-
 my_key = st.secrets["GROQ_API_KEY"]
 
 @st.cache_resource
